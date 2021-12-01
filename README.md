@@ -23,19 +23,10 @@
 `transactions.py`: webpage of successful payment for insurance
 
 ## Instructions
-
+0. download GPT-2 model from [here]"https://pan.baidu.com/s/1h3iKvhT069SvHpy0X289eQ",password: hzgs, move the downloaded model file to ./ask_utils
 1. `pip install -r requirements.txt`
 2. `flask run` or `gunicorn wsgi:application`
 3. open http://127.0.0.1:5000 in your browser or
 4. `flask run --host=0.0.0.0` or `gunicorn --bind 0.0.0.0:8000 wsgi:application` to open for external connections
 
-## 未实现功能
 
-- `research`页的`retrieve my medical record`需要从本地的`bc.txt`文件导入hash并转译为诊断信息。未实现
-- `results`页的信息取自本地的`insurmanager.xlsx`文件。该文件的数据可能需要根据实际情况调整
-- `transaction`页的内容显示有点问题，待解决
-
-## 备注
-
-- 目前数据库中保存了两个用户，分别是James和Leo。密码分别是James和Leo。如果需要添加用户，可以通过`add_remove_users.ipynb`增加/删除用户
-"# insurtechapp" 
