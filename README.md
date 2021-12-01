@@ -21,6 +21,7 @@
 `success_doctor.py`: webpage of successful login of doctors  
 `success_patient.py`: webpage of successful login of patients  
 `transactions.py`: webpage of successful payment for insurance  
+`helper.py`: webpage of GPT-2 consultant  
 
 ## Instructions
 0. download [GPT-2 model](https://pan.baidu.com/s/1h3iKvhT069SvHpy0X289eQ), password: hzgs, move the downloaded file to ./ask_utils
