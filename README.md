@@ -23,7 +23,7 @@
 `transactions.py`: webpage of successful payment for insurance
 
 ## Instructions
-0. download GPT-2 model from [here]"https://pan.baidu.com/s/1h3iKvhT069SvHpy0X289eQ",password: hzgs, move the downloaded model file to ./ask_utils
+0. download GPT-2 model from [here]'https://pan.baidu.com/s/1h3iKvhT069SvHpy0X289eQ',password: hzgs, move the downloaded model file to ./ask_utils
 1. `pip install -r requirements.txt`
 2. `flask run` or `gunicorn wsgi:application`
 3. open http://127.0.0.1:5000 in your browser or
